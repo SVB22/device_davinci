@@ -301,10 +301,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
-# Power HAL
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.pixel-libperfmgr
-
 # Powerhint
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
@@ -444,3 +440,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# power HAL
+-include hardware/google/pixel/power-libperfmgr/hidl/device.mk
