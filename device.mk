@@ -155,6 +155,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml
 
+# Doze
+PRODUCT_PACKAGES += \
+    CustomDoze
+
 # DPM
 PRODUCT_PACKAGES += \
     libshim_dpmframework \
