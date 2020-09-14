@@ -301,10 +301,15 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
-# Product characteristics
-PRODUCT_CHARACTERISTICS := nosdcard
+# Power HAL
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.3-service.xiaomi_sm8150-libperfmgr
 
-# QTI
+# Powerhint
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
+# QMI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
 
