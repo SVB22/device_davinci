@@ -615,6 +615,10 @@ vendor/firmware/ipa_fws.mdt
 system_ext/framework/qti-telephony-common.jar|695214c1294dc9a79ee48387140c9907203300d7
 -system_ext/priv-app/ims/ims.apk|d2e1bb9b56805e08f6fb35bee8c1d59035904e27
 
+# IRQ balancer
+vendor/bin/msm_irqbalance
+vendor/etc/msm_irqbalance.conf
+
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
@@ -671,34 +675,6 @@ vendor/lib/vendor.qti.hardware.vpp@1.3.so
 
 # NFC
 vendor/lib/libsn100u_fw.so
-
-# Perf
-vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
-vendor/bin/msm_irqbalance
-vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
-vendor/etc/msm_irqbalance.conf
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/perfconfigstore.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
-vendor/etc/powerhint.xml
-vendor/lib64/libperfconfig.so
-vendor/lib64/libperfgluelayer.so
-vendor/lib64/libperfioctl.so
-vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-util.so
-vendor/lib64/vendor.qti.hardware.perf@2.0.so
-vendor/lib64/vendor.qti.hardware.perf@2.1.so
-vendor/lib64/vendor.qti.hardware.perf@2.2.so
-vendor/lib/libperfconfig.so
-vendor/lib/libperfgluelayer.so
-vendor/lib/libperfioctl.so
-vendor/lib/libqti-perfd-client.so
-vendor/lib/libqti-perfd.so
-vendor/lib/libqti-util.so
-vendor/lib/vendor.qti.hardware.perf@2.2.so
 
 # Peripheral Manager
 vendor/bin/pm-proxy
