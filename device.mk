@@ -359,7 +359,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi \
-	hardware/google/pixel
+	hardware/google/pixel \
+	hardware/google/interfaces
 
 # Telephony
 PRODUCT_PACKAGES += \
@@ -475,6 +476,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Use 64-bit dex2oat for better dexopt time.
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat64.enabled=true
+
+# pixelstats
+include hardware/google/pixel/pixelstats/device.mk
 
 # power HAL
 -include hardware/google/pixel/power-libperfmgr/hidl/device.mk
