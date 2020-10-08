@@ -1,3 +1,3 @@
-dontaudit art_apex_boot_integrity self:capability {sys_admin};
-dontaudit adbroot self:capability {sys_admin};
-dontaudit migrate_legacy_obb_data self:capability {sys_admin};
+allow art_apex_boot_integrity self:capability {sys_admin};
+allow adbroot self:capability {sys_admin};
+allow migrate_legacy_obb_data self:capability {sys_admin};

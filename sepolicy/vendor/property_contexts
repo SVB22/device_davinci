@@ -24,9 +24,6 @@ persist.sensor.                    u:object_r:persist_sensors_prop:s0
 # Touchfeature
 ro.vendor.touchfeature.type        u:object_r:vendor_touchfeature_prop:s0
 
-# PowerHAL
-vendor.powerhal.                   u:object_r:vendor_power_prop:s0
-
 # Thermal
 vendor.sys.thermal.                u:object_r:thermal_normal_prop:s0
 persist.sys.thermal.config         u:object_r:thermal_normal_prop:s0

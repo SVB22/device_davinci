@@ -1,2 +1,2 @@
-dontaudit zygote self:capability { dac_override setgid setuid fowner setpcap kill };
-dontaudit zygote theme_prop:file { getattr open read };
+allow zygote self:capability { dac_override setgid setuid fowner setpcap kill };
+allow zygote theme_prop:file { getattr open read };

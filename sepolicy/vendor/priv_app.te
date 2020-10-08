@@ -1,6 +1,6 @@
-dontaudit priv_app bt_firmware_file:filesystem getattr;
-dontaudit priv_app firmware_file:filesystem getattr;
-dontaudit priv_app mnt_vendor_file:dir search;
+allow priv_app bt_firmware_file:filesystem getattr;
+allow priv_app firmware_file:filesystem getattr;
+allow priv_app mnt_vendor_file:dir search;
 allow priv_app vendor_default_prop:file { read open getattr map };
 allow priv_app system_data_file:dir { open read };
 allow priv_app adb_data_file:file { getattr open read execute };

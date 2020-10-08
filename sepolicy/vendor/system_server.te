@@ -1,2 +1,2 @@
 get_prop(system_server, vendor_camera_prop)
-dontaudit system_server vendor_default_prop:file r_file_perms;
+allow system_server vendor_default_prop:file r_file_perms;

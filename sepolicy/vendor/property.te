@@ -1,8 +1,0 @@
-type system_manufacturer_prop, property_type;
-type persist_sensors_prop, property_type;
-
-# Camera read only property
-type camera_ro_prop, property_type;
-
-# PowerHal
-vendor_internal_prop(vendor_power_prop)
