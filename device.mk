@@ -299,6 +299,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
+# Powerstats
+PRODUCT_PACKAGES += \
+    android.hardware.power.stats@1.0-service.pixel
+
 # QMI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
@@ -354,7 +358,8 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/xiaomi \
+	hardware/google/pixel
 
 # Telephony
 PRODUCT_PACKAGES += \
