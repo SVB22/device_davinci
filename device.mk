@@ -444,4 +444,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # power HAL
--include hardware/google/pixel/power-libperfmgr/hidl/device.mk
+-include hardware/google/pixel/power-libperfmgr/aidl/device.mk
