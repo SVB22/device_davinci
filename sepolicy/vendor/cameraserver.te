@@ -1,3 +1,4 @@
 hal_client_domain(cameraserver, hal_motor)
 allow cameraserver property_socket:sock_file write;
 allow cameraserver init:unix_stream_socket connectto;
+allow cameraserver default_android_service:service_manager find;
