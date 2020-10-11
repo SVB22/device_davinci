@@ -14,7 +14,7 @@ allow pixelstats_vendor fwk_stats_hwservice:hwservice_manager find;
 binder_call(pixelstats_vendor, statsd)
 
 allow pixelstats_vendor sysfs_scsi_devices_0000:file rw_file_perms;
-allow pixelstats_vendor self:netlink_kobject_uevent_socket { create setopt bind read };
+allow pixelstats_vendor self:netlink_kobject_uevent_socket { create setopt getopt bind read };
 
 allow pixelstats_vendor vendor_sysfs_battery_supply:dir r_dir_perms;
 allow pixelstats_vendor vendor_sysfs_battery_supply:file rw_file_perms;

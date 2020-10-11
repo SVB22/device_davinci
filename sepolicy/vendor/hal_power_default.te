@@ -1,3 +1,4 @@
+type vendor_power_prop, property_type;
 allow hal_power_default input_device:dir r_dir_perms;
 
 allow hal_power_default {

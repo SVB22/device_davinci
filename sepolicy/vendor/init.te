@@ -3,4 +3,7 @@ allow init firmware_file:filesystem getattr;
 allow init system_file: file { execute_no_trans };
 allow init vendor_file: file { execute_no_trans };
 allow init hwservicemanager:binder {call transfer};
-allow init vndbinder_device:chr_file { read write };
+allow init vndservicemanager:binder {call transfer};
+allow init vndbinder_device:chr_file { read write open map ioctl };
+allow init sysfs:file r_file_perms;
+allow surfaceflinger init:binder { transfer call };
