@@ -37,4 +37,10 @@ XTENDED_MAINTAINER := SVB22
 # Inherit from custom vendor
 # $(call inherit-product, vendor/ANXCamera/config.mk)
 
+# Inherit PixelGApps
+$(call inherit-product, vendor/google/gms/config.mk)
+
+# We're shipping build with Gapps
+WITH_GMS := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
