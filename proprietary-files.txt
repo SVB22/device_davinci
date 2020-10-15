@@ -103,6 +103,7 @@ vendor/firmware/tfa98xx.cnt
 
 # Audio (soundtrigger)
 vendor/lib/hw/sound_trigger.primary.sm6150.so
+vendor/lib/librice.so
 
 # Audio (HAL)
 vendor/lib/hw/audio.primary.sm6150.so
