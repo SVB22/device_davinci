@@ -30,12 +30,8 @@ ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 # FM
 vendor.bluetooth.soc=cherokee
 
-#lmkd
-ro.lmk.use_psi=true
-ro.lmk.low_ram=false
-ro.lmk.kill_heaviest_task=true
-ro.lmk.kill_timeout_ms=100
-ro.lmk.use_minfree_levels=true
+# LMKD
+ro.config.low_ram=false
 
 # Media
 media.aac_51_output_enabled=true
