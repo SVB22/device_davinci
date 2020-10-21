@@ -122,7 +122,7 @@ vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 lib/libcameraservice.so
 lib64/libarc_layer_sgl.so
 lib64/libcameraservice.so
-lib64/libOpenCL.so
+lib64/libOpenCL_system.so
 system_ext/lib/vendor.qti.hardware.camera.device@3.5.so
 vendor/bin/remosaic_daemon
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
