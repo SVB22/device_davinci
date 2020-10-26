@@ -1,2 +1,2 @@
-allow poweroffalarm_app bootloader_boot_reason_prop:file read;
-allow power_off_alarm kmsg_device:chr_file rw_file_perms;
+allow vendor_poweroffalarm_app bootloader_boot_reason_prop:file read;
+allow vendor_power_off_alarm kmsg_device:chr_file rw_file_perms;

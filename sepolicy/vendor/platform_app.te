@@ -1,9 +1,9 @@
-allow platform_app sysfs_graphics:file r_file_perms;
+allow platform_app vendor_sysfs_graphics:file r_file_perms;
 allow platform_app vendor_fp_prop:file {  getattr map read open };
 allow platform_app cgroup:file r_file_perms;
 allow platform_app vendor_default_prop:file { getattr open read map };
-allow platform_app sensors_prop:file { getattr open read map };
+allow platform_app vendor_sensors_prop:file { getattr open read map };
 allow platform_app boottime_prop:file r_file_perms;
-allow platform_app time_daemon:unix_stream_socket connectto;
-allow platform_app time_daemon:file { read };
+allow platform_app vendor_time_daemon:unix_stream_socket connectto;
+allow platform_app vendor_time_daemon:file { read };
 allow platform_app vendor_audio_prop:file { r_file_perms };

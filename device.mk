@@ -114,13 +114,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_megvii
 
-PRODUCT_PACKAGES += \
-    Snap
-
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.camera.device@1.0 \
-    vendor.qti.hardware.camera.device@1.0_vendor
-
 # GoogleCamera
 PRODUCT_PACKAGES += \
     GoogleCamera

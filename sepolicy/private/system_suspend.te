@@ -1,0 +1,3 @@
+allow system_suspend sysfs_type:dir { open read };
+allow system_suspend sysfs_power:dir { open read };
+allow system_suspend sysfs_type:file rw_file_perms;

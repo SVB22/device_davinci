@@ -6,4 +6,13 @@ allow init hwservicemanager:binder {call transfer};
 allow init vndservicemanager:binder {call transfer};
 allow init vndbinder_device:chr_file { read write open map ioctl };
 allow init sysfs:file r_file_perms;
+allow init vendor_sysfs_battery_supply:file create_file_perms;
+allow init self:qipcrtr_socket create_socket_perms;
+allow init self:netlink_route_socket create_socket_perms;
+allow init self:netlink_route_socket { nlmsg_read nlmsg_write };
+allow init self:capability2 wake_alarm;
+allow init vendor_hal_dpmQmiMgr:binder {call transfer};
+
 allow surfaceflinger init:binder { transfer call };
+allow netutils_wrapper init:unix_stream_socket create_socket_perms;
+binder_call(vendor_hal_dpmQmiMgr,init)

@@ -1,0 +1,14 @@
+allow crash_dump {
+  domain
+  -apexd
+  -bpfloader
+  -crash_dump
+  -init
+  -kernel
+  -keystore
+  -llkd
+  -logd
+  -ueventd
+  -vendor_init
+  -vold
+}:process { ptrace signal sigchld sigstop sigkill };
