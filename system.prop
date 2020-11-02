@@ -76,3 +76,6 @@ persist.radio.volte.dan_support=true
 persist.debug.wfd.enable=1
 persist.sys.wfd.nohdcp=1
 wifi.interface=wlan0
+
+# SurfaceFlinger brightness tweak
+ro.sf.force_light_brightness=1
