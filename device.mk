@@ -191,8 +191,10 @@ PRODUCT_COPY_FILES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FM2 \
-    qcom.fmradio
+	FM2 \
+	libqcomfm_jni \
+	qcom.fmradio \
+	qcom.fmradio.xml
 
 # Fstab
 PRODUCT_COPY_FILES += \
