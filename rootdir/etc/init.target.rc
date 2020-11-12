@@ -33,6 +33,11 @@ on init
 
     write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
 
+    chmod 667 /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+    chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+    chmod 667 /sys/devices/system/cpu/cpu6/cpufreq/scaling_max_freq
+    chown system system /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq
+
     # Boot time fs tuning
     write /sys/block/sda/queue/iostats 0
     write /sys/block/sda/queue/scheduler cfq
