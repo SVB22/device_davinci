@@ -737,4 +737,7 @@
         <item>com.google.android.gms</item>
     </string-array>
 
+    <!-- Enable lockscreen rotation by default -->
+    <bool name="config_enableLockScreenRotation">false</bool>
+
 </resources>
