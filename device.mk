@@ -23,8 +23,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/davinci/davinci-vendor.mk)
 
-# ANXCamera
-# $(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
+# Inherit from MiuiCamera    vendor
+$(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
@@ -124,7 +124,7 @@ PRODUCT_PACKAGES += \
     libshim_megvii
 
 # GoogleCamera
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     GoogleCamera
 
 PRODUCT_COPY_FILES += \
