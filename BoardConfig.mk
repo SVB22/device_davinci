@@ -133,6 +133,9 @@ BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
 
+# MiuiCamera
+include vendor/miuicamera/common/BoardConfigVendor.mk
+
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
