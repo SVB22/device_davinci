@@ -39,7 +39,5 @@
     <!-- Whether to show biometric help only when failed -->
     <bool name="config_biometricHelpShowOnlyWhenFailed">true</bool>
 
-    <!-- Override value to use for proximity sensor.  -->
-    <string name="proximity_sensor_type" translatable="false"></string>
 
 </resources>
