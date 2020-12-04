@@ -82,7 +82,28 @@
     <string name="stop_operate_camera_frequently">Слишком частые переключения между камерами.</string>
     <string name="takeback_camera_front_failed">Не удалось закрыть переднюю камеру. Повторите попытку.</string>
     <string name="popup_camera_front_failed">Не удалось открыть переднюю камеру. Повторите попытку.</string>
+    <string name="popup_calibration_title">Клбровка</string>
+    <string name="popup_calibration_summary">Калибровка выдвижной камеры</string>
+    <string name="popup_calibration_warning_title">Калибровка камеры</string>
+    <string name="popup_calibration_warning_text">Неправильное использование калибровки может привести к необратимым повреждениям. Рекомендуется калибровать камеру только в том случае, если она не двигается должным образом или находится в неправильном положении!</string>
+
     <!-- DC dimming settings -->
     <string name="dc_dimming_enable_title">DC Dimming</string>
     <string name="dc_dimming_enable_summary">DC Dimming уменьшает нагрузку на глаза в условиях низкой освещенности</string>
+
+    <!-- Kcal settings -->
+    <string name="kcal_settings_title">Настройки дисплея</string>
+    <string name="kcal_settings_summary">Настройте цвета, насыщенность и контрастность дисплея</string>
+    <string name="kcal_enable_title">Включить цветовую конфигурацию дисплея</string>
+    <string name="kcal_enable_summary">Влють дополнительные настройки дисплея</string>
+    <string name="red_slider_title">Красный</string>
+    <string name="green_slider_title">Зелёный</string>
+    <string name="blue_slider_title">Синий</string>
+    <string name="kcal_rgb_preference_category_title">RGB</string>
+    <string name="kcal_calibration_preference_category_title">Калибровка цвета</string>
+    <string name="saturation_slider_title">Насыщенность</string>
+    <string name="reset_default_button_title">Сбросить настройки</string>
+    <string name="reset_default_button_summary">Сбросить настройки к начальным значениям</string>
+    <string name="contrast_slider_title">Контрастность</string>
+
 </resources>
