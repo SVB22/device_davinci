@@ -95,7 +95,7 @@
     <string name="kcal_settings_title">Настройки дисплея</string>
     <string name="kcal_settings_summary">Настройте цвета, насыщенность и контрастность дисплея</string>
     <string name="kcal_enable_title">Включить цветовую конфигурацию дисплея</string>
-    <string name="kcal_enable_summary">Влють дополнительные настройки дисплея</string>
+    <string name="kcal_enable_summary">Включить дополнительные настройки дисплея</string>
     <string name="red_slider_title">Красный</string>
     <string name="green_slider_title">Зелёный</string>
     <string name="blue_slider_title">Синий</string>
