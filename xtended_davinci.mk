@@ -32,7 +32,7 @@ XTENDED_BUILD_TYPE := OFFICIAL
 XTENDED_MAINTAINER := SVB22
 
 # FOD animations
-# EXTRA_FOD_ANIMATIONS := true
+EXTRA_FOD_ANIMATIONS := true
 
 # Inherit from custom vendor
 # $(call inherit-product, vendor/ANXCamera/config.mk)
