@@ -340,10 +340,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
-# Powerstats
-PRODUCT_PACKAGES += \
-    android.hardware.power.stats@1.0-service.pixel
-
 # QMI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
@@ -519,9 +515,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Use 64-bit dex2oat for better dexopt time.
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat64.enabled=true
-
-# pixelstats
-include hardware/google/pixel/pixelstats/device.mk
 
 # power HAL
 -include hardware/google/pixel/power-libperfmgr/aidl/device.mk
