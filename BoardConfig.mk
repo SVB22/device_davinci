@@ -69,6 +69,11 @@ TARGET_NO_BOOTLOADER := true
 
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
+# TARGET_USES_PREBUILT_CAMERA_SERVICE := true
+
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    system/lib/libcameraservice.so|libmedia_jni_shim.so
 
 # Display
 TARGET_HAS_HDR_DISPLAY := true
