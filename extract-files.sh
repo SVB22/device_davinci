@@ -64,11 +64,6 @@ function blob_fixup() {
     product/lib64/libdpmframework.so)
         patchelf --add-needed "libshim_dpmframework.so" "${2}"
         ;;
-    vendor/lib64/hw/camera.qcom.so)
-        patchelf --remove-needed "libMegviiFacepp-0.5.2.so" "${2}"
-        patchelf --remove-needed "libmegface.so" "${2}"
-        patchelf --add-needed "libshim_megvii.so" "${2}"
-        ;;
     esac
 }
 

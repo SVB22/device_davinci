@@ -121,7 +121,6 @@ PRODUCT_PACKAGES += \
     libjni_jpegutil
 
 PRODUCT_PACKAGES += \
-    libshim_megvii \
 	libmedia_jni_shim
 
 PRODUCT_COPY_FILES += \
