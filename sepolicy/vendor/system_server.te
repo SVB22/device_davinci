@@ -1,0 +1,6 @@
+get_prop(system_server, vendor_camera_prop)
+
+allow system_server vendor_camera_prop:file { read open getattr map };
+allow system_server vendor_default_prop:file { read open getattr map };
+
+allow system_server sdcardfs:file r_file_perms;
