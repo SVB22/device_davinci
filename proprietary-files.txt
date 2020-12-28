@@ -103,6 +103,7 @@ vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 
 # Audio (firmware)
 vendor/firmware/tfa98xx.cnt
+vendor/firmware/mono.cnt
 
 # Audio (soundtrigger)
 vendor/lib/hw/sound_trigger.primary.sm6150.so
