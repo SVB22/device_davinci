@@ -611,9 +611,13 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
+# IRQ balancer
+vendor/bin/msm_irqbalance
+vendor/etc/msm_irqbalance.conf
+
 # Telephony - from LA.UM.9.1.r1-07000-SMxxx0.0
-system_ext/framework/qti-telephony-common.jar|695214c1294dc9a79ee48387140c9907203300d7
--system_ext/priv-app/ims/ims.apk|d2e1bb9b56805e08f6fb35bee8c1d59035904e27
+system_ext/framework/qti-telephony-common.jar|7d684c5220f5a2a5778bac40f95d852de68dd1a6
+-system_ext/priv-app/ims/ims.apk|61507a8ad66f4f299fe66e11ff71eeb3e2fe5259
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
