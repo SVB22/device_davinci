@@ -22,28 +22,28 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/syberia/config/common.mk)
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
-#Boot Animation
-TARGET_BOOT_ANIMATION_RES := 1080
-
-PRODUCT_NAME := syberia_davinci
-PRODUCT_DEVICE := davinci
+# Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi 9T
+PRODUCT_DEVICE := davinci
 PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_NAME := xtended_davinci
+PRODUCT_MODEL := Mi 9T
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+# Official MSM-Xtended
+XTENDED_BUILD_TYPE := OFFICIAL
 
-# FaceUnlock
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# FOD
-TARGET_HAS_FOD := true
-
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+# Maintainer
+XTENDED_MAINTAINER := SVB22
 
 # FOD animations
-TARGET_WANTS_FOD_ANIMATIONS := true
+EXTRA_FOD_ANIMATIONS := true
 
-SYBERIA_BUILD_TYPE := OFFICIAL
+# Inherit PixelGApps
+# $(call inherit-product, vendor/google/gms/config.mk)
+
+# We're shipping build with Gapps
+# WITH_GMS := true
+
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

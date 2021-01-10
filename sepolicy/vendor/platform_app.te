@@ -1,3 +1,5 @@
 allow platform_app vendor_fp_prop:file {  getattr map read open };
 allow platform_app default_android_hwservice:hwservice_manager find;
 allow platform_app cgroup:file { read open getattr map };
+allow platform_app vendor_sensors_prop:file { getattr open read map };
+get_prop(platform_app, vendor_sensors_prop);

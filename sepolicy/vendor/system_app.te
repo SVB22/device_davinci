@@ -10,3 +10,6 @@ hal_client_domain(system_app, vendor_hal_fm)
 
 allow system_app vendor_sysfs_battery_supply:dir search;
 allow system_app vendor_sysfs_battery_supply:file r_file_perms;
+
+allow system_app sysfs_zram:dir search;
+allow system_app sysfs_zram:file { getattr open read };

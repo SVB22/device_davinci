@@ -22,27 +22,26 @@
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
-    <!-- Display mode remapping table.
-         If the mode names returned by the backend do not match
-         the predefined and translated strings in the Settings
-         app, they can be remapped here. The format is
-         "oldname:newname", one per entry. -->
-    <string-array name="config_displayModeMappings" translatable="false">
-        <item>none:standard</item>
-        <item>smart_eyedefault:reading</item>
-        <item>GM_1:saturated</item>
-        <item>hal_srgb:srgb</item>
-        <item>smart_MC:dci_p3</item>
-    </string-array>
-
-    <!-- Shows the required view for in-display fingerprint -->
+    <!-- FOD fingerprint scanner -->
     <bool name="config_needCustomFODView">true</bool>
 
     <!-- Whether usage of the proximity sensor during doze is supported -->
     <bool name="doze_proximity_sensor_supported">true</bool>
 
+    <!-- Smart Charing is available -->
+    <bool name="config_smartChargingAvailable">true</bool>
+
     <!-- Smart charge sysfs node and value for suspend/resume charging-->
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
     <string name="config_SmartChargingSupspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
+
+    <!-- NightLight FOD -->
+    <bool name="disable_fod_night_light">true</bool>
+
+    <!-- Hide FOD while Going to sleep from lockscreen to avoid HBM flicker -->
+    <bool name="config_inDisplayFingerprintFlickersGoingToSleep">true</bool>
+
+    <!-- Whether device supports in-display fingerprint when screen is turned off -->
+    <bool name="config_supportsScreenOffInDisplayFingerprint">true</bool>
 </resources>

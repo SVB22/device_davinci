@@ -19,6 +19,8 @@ BOARD_VENDOR := xiaomi
 DEVICE_PATH := device/xiaomi/davinci
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_USES_NETWORK := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
 # Inherit from proprietary files
 include vendor/xiaomi/davinci/BoardConfigVendor.mk
@@ -192,6 +194,8 @@ include device/qcom/sepolicy_vndr/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
