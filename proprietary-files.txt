@@ -44,6 +44,9 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
+#Android Auto
+-product/priv-app/AndroidAutoStub/AndroidAutoStub.apk;PRESIGNED
+
 # ANT+
 -lib/libantradio.so
 -lib64/libantradio.so
