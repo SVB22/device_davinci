@@ -23,6 +23,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/davinci/davinci-vendor.mk)
 
+# ANXCamera
+#$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
 # Inherit from MiuiCamera    vendor
 $(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
 
@@ -333,6 +335,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Powerhint
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
+# Power stats
+PRODUCT_PACKAGES += \
+    android.hardware.power.stats@1.0-service.mock
 
 # QMI
 PRODUCT_PACKAGES += \
