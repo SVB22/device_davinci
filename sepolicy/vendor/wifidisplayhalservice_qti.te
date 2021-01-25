@@ -1,0 +1,1 @@
+allow vendor_wifidisplayhalservice_qti default_prop:file { open read getattr map };

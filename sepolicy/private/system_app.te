@@ -1,1 +1,4 @@
-set_prop(system_app, vendor_wfd_service_prop);
+set_prop(system_app, vendor_wfd_service_prop)
+binder_call(system_app, vendor_wfdservice)
+binder_call(vendor_wfdservice, system_app)
+get_prop(system_app, vendor_wfd_sys_debug_prop)
