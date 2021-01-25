@@ -142,15 +142,12 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.2-service \
-    android.hardware.graphics.mapper@2.0-impl-qti-display \
+    android.hardware.graphics.composer@2.4-service \
+    android.hardware.graphics.mapper@3.0-impl-qti-display \
+    android.hardware.graphics.mapper@4.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    vendor.qti.hardware.display.allocator-service \
-    libqdMetaData \
-    libqdMetaData.system \
-    libqdMetaData.vendor
-
+    vendor.qti.hardware.display.allocator-service
 
 PRODUCT_PACKAGES += \
     gralloc.sm6150 \
@@ -158,18 +155,14 @@ PRODUCT_PACKAGES += \
     memtrack.sm6150
 
 PRODUCT_PACKAGES += \
-    libtinyxml
+    vendor.qti.hardware.display.mapper@2.0.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml
-
+	
 # DPM
 PRODUCT_PACKAGES += \
-    libshim_dpmframework \
-    vendor.display.config@1.10 \
-    vendor.qti.hardware.display.allocator-service \
-    vendor.qti.hardware.display.allocator@1.0-service \
-    vendor.qti.hardware.display.allocator@1.0.vendor
+    libshim_dpmframework
 
 # DRM
 PRODUCT_PACKAGES += \
