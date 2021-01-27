@@ -7,3 +7,4 @@ allow platform_app boottime_prop:file r_file_perms;
 allow platform_app vendor_time_daemon:unix_stream_socket connectto;
 allow platform_app vendor_time_daemon:file { read };
 allow platform_app vendor_audio_prop:file { r_file_perms };
+allow platform_app default_android_service:service_manager { find };
