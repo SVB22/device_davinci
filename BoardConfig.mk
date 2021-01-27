@@ -29,7 +29,11 @@ LOCAL_CHECK_ELF_FILES := false
 include vendor/xiaomi/davinci/BoardConfigVendor.mk
 
 # ANXCamera
-# -include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
+ -include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
+
+ # MiuiCamera
+ #include vendor/miuicamera/common/BoardConfigVendor.mk
+
 
 # Architecture
 TARGET_ARCH := arm64
@@ -148,9 +152,6 @@ BOARD_KERNEL_CMDLINE += loop.max_part=7
 # Media
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
-
-# MiuiCamera
-include vendor/miuicamera/common/BoardConfigVendor.mk
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
