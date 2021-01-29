@@ -668,6 +668,15 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 
+# Media - from miui_DAVINCI_21.1.6_594cd21df3_11.0
+vendor/bin/hw/vendor.qti.media.c2@1.0-service|434bd2feb1846a7e02441be2213bac8d2e22c3f7
+vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
+vendor/etc/seccomp_policy/codec2.vendor.base.policy|05b0779b5da2ea640984d46a46a796edeaab5fab
+vendor/etc/seccomp_policy/codec2.vendor.ext.policy|6a9a9eb3261048f02805261568097410e1a23b2d
+vendor/lib/libcodec2_hidl@1.0.so|517915eb721df26aa2221e9f910f9505efbf03cd
+vendor/lib/libcodec2_vndk.so|559c81dacc20df093834b0ce8e149dd164824c53
+vendor/lib/libqcodec2.so|3b4b80521b67112fcf0c1e41ef242aad8d8db733
+
 # Media
 vendor/bin/vppservice
 vendor/etc/init/vppservice.rc
