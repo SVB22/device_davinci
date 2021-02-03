@@ -1,2 +1,5 @@
 allow untrusted_app theme_prop:file r_file_perms;
 allow untrusted_app_29 theme_prop:file { open read getattr };
+allow untrusted_app rootfs:dir { open read };
+allow untrusted_app rootfs:file { getattr open read };
+allow untrusted_app hal_memtrack_hwservice:hwservice_manager find;
