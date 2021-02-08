@@ -236,23 +236,10 @@
     <string name="navbar_gesture_pill_toggle_summary">Это скроет панель навигации и пил безграничных полноэкранных жестов.</string>
     <string name="navbar_gesture_pill_toggle_summary_disabled">Эта опция доступна только для жестов навигации!</string>
 
-    <!-- Control Vibration intensities -->
-    <string name="vibration_preferences">Вибрация и тактильность</string>
-    <string name="summary_vibration_preferences">Изменение интенсивности, шаблона и многое другое</string>
-    <string name="keywords_vibration_preferences">Шаблон вибрации, интенсивность вибрации, вкл., тактильность, касание</string>
-    <string name="ringtone_vibration_pattern">Шаблон вибрации звонка</string>
-    <string name="vibration_intensity_ringer">Интенсивность вибрации звонка</string>
-    <string name="vibration_intensity_notification">Интенсивность вибрации уведомлений</string>
-    <string name="vibration_intensity_disabled">Отключено</string>
-    <string name="vibration_intensity_light">Легкая</string>
-    <string name="vibration_intensity_medium">Средняя</string>
-    <string name="vibration_intensity_strong">Сильная</string>
-    <string name="vibration_intensity_custom">Настроить</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Настройки вибрации при звонке</string>
+    <string name="pattern_custom">Пользовательская</string>
+    <string name="custom_vibration_pattern_title">Пользовательский шаблон</string>
 
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
@@ -352,6 +339,18 @@
     <string name="qstile_neon">Неоновый свет</string>
     <string name="qstile_triangle">Треугольник</string>
 
+    <!-- Qs Tile Icon Bright-Dark -->
+    <string name="qs_icon_primary_title">Иконки QS светлые \ тёмные</string>
+    <string name="qs_icon_primary_summary">Выбор светлого или тёмного заполнения иконок QS</string>
+
+    <!-- QS Themes Type Background -->
+    <string name="qs_bg_type_title">Фон панели QS</string>
+    <string name="qs_bg_type_summary">Включить выбор фона панели QS</string>
+    <string name="qs_bg_blur_image_title">Размыть изображение</string>
+    <string name="qs_bg_blur_image_summary">Размыть выбранное изображение</string>
+    <string name="file_header_select_title">Выбрать изображение</string>
+    <string name="file_header_select_summary">Выбрать изображение из хранилища</string>
+
     <!-- Home handle sizing -->
     <string name="home_handle_sizer_title">Длина черты панели навигации</string>
     <string name="home_handle_low_label">Скрыта</string>
@@ -379,4 +378,45 @@
     <string name="audio_panel_theme_default">Xtended</string>
     <string name="audio_panel_theme_aosp">AOSP</string>
     <string name="audio_panel_theme_custom">Xtended Custom</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Звук при зарядке</string>
+    <string name="charging_vibro_title">Вибрация при зарядке</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук при скриншоте</string>
+
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Отключено</string>
+    <string name="greatest_tick_label">Половина экрана</string>
+    <string name="gesture_back_deadzone_label">Мёртвая зона</string>
+    <string name="back_sensitivity_dialog_message_cust">\nИспользуйте первый и второй ползунок для настройки чувствительности жеста назад, третий ползунок устанавливает мертвую область в верхней части экрана, где жесты не будут работать, чтобы избежать конфликтов с жестами в приложении.</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Длина навбара при жестах</string>
+    <string name="hidden_label">Спрятан</string>
+    <string name="long_label">Длинный</string>
+
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Виброотклик</string>
+    <string name="back_gesture_haptic_summary">Включить виброотклик при жестах назад</string>
+
+    <!-- Clock style -->
+    <string name="clock_style_title">Стиль часов</string>
+    <string name="clock_style_summary">Выбор вида часов на экране блокировки</string>
+
+    <!-- gvisual mod -->
+    <string name="gvisual_title">Детали интерфейса</string>
+    <string name="rounded_ui_title">Закругленные углы</string>
+    <string name="rounded_ui_dialog_title">Выбор модели закругления углов</string>
+    <string name="rounded_style_default">По умолчанию</string>
+    <string name="rounded_style_rectangle">Прямоугольный</string>
+    <string name="rounded_style_large">Большое</string>
+    <string name="rounded_style_medium">Среднее</string>
+    <string name="statusbar_height_title">Высота статусбара</string>
+    <string name="statusbar_height_dialog_title">Выберите высоту статусбара</string>
+    <string name="sb_height_default">По умолчанию</string>
+    <string name="sb_height_medium">Средняя</string>
+    <string name="sb_height_large">Большая</string>
+    <string name="sb_height_extralarge">Очень большая</string>
 </resources>

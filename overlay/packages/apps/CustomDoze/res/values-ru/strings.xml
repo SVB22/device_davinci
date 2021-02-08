@@ -29,6 +29,8 @@
     <string name="hand_wave_gesture_summary">Включать экран при взмахе рукой</string>
     <string name="pocket_gesture_title">В кармане</string>
     <string name="pocket_gesture_summary">Включать экран при вынимании из кармана</string>
+    <string name="proximity_screen_wake_title">Вллччать экран вместо Ambient дисплея</string>
+    <string name="proximity_screen_wake_summary">Включать экран при взмахе рукой или вынимании из кармана вместо Ambient дисплея</string>
 
     <string name="aod_setting_title">Всегда включен</string>
     <string name="aod_setting_summary">Показывать время, значки уведомлений и другую информацию. Увеличивает расход батареи</string>
@@ -54,7 +56,7 @@
     <string name="ok">OK</string>
     <string name="cancel">Отмена</string>
 
-    <string name="footer_info">Если всегда включен, яркость пересчитывается, чтобы следовать спецификации оборудования, 
+    <string name="footer_info">Если всегда включен, яркость пересчитывается, чтобы следовать спецификации оборудования,
          поэтому не рассматривайте вышеуказанные значения как абсолютные.\n\nДлительно нажмите на левое значение текста, чтобы установить его вручную.</string>
 
 </resources>

@@ -166,10 +166,6 @@
     <!-- QQS brightness slider -->
     <string name="qqs_brightness_slider_title">Слайдер яркости в панели Qs</string>
 
-    <!-- Show VoWiFi icon on statusbar -->
-    <string name="vowifi_icon_title">Иконка VoWiFi</string>
-    <string name="vowifi_icon_summary">Показывать иконку VoWiFi</string>
-
     <!-- Sensor block package config-->
     <string name="sensor_block_app_picker_title">Блокировать датчики для приложений</string>
     <string name="add_sensor_block_package_title">Добавить приложения с блокировкой сенсоров</string>
@@ -201,5 +197,68 @@
 
     <string name="ambient_decor_title">Настройки Xtended Ambient</string>
     <string name="ambient_decor_summary">Меню для настройки вида Ambient</string>
+
+    <string name="ambient_battery_percent_title">Уровень заряда</string>
+    <string name="ambient_battery_percent_summary">Показывать уровень заряда батареи на AOD</string>
+
+    <string name="navbar_visibility">Панель навигации</string>
+    <string name="navbar_vis_summary">Включение - отключение панели навигации</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертировать</string>
+    <string name="navbar_invert_layout_summary">Поменять местами кнопки "недавние приложения" и "назад"</string>
+
+    <string name="global_actions_advanced_reboot_title">Включить расширенную перезагрузку</string>
+    <string name="global_actions_advanced_reboot_summary">Показывать опции для recovery и бутлоадера при перезагрузке</string>
+    <string name="global_actions_max_columns_title">Максимум отображаемых действий</string>
+    <string name="global_actions_max_columns_summary">При каком количестве акций включать мню переполнения</string>
+
+    <!-- Edit icon toggle -->
+    <string name="qs_edit_title">Иконка редактирования</string>
+    <string name="qs_edit_summary">Показывать иконку редактирования плиток</string>
+
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Умная панель QS</string>
+    <string name="smart_pulldown_summary">Открывать быстрые настройки когда %1$s уведомлений</string>
+    <string name="smart_pulldown_none_summary">Открывать быстрые настройки когда нет уведомлений</string>
+    <string name="smart_pulldown_off">Отключено</string>
+    <string name="smart_pulldown_none">нет уведомлений</string>
+    <string name="smart_pulldown_dismissable">нет закрываемых</string>
+    <string name="smart_pulldown_ongoing">нет текущих</string>
+
+    <!-- QS advanced settings -->
+    <string name="status_bar_quick_qs_pulldown">Быстрое открытие QS</string>
+    <string name="quick_pulldown_none">Отключено</string>
+
+    <!-- Brightness slider -->
+    <string name="qs_brightness_category">Слайдер яркости в панели QS</string>
+    <string name="qs_show_brightness_title">Слайдер яркости</string>
+    <string name="qs_show_brightness_summary">Видимость и настройка слайдера яркости</string>
+    <string name="qs_show_brightness_above_footer_title">Над нижним колонтитулом</string>
+    <string name="qs_show_brightness_above_footer_summary">Показывать слайдер яркости над нижним колонтитулом QS</string>
+    <string name="qs_show_auto_brightness_title">Иконка автоматической яркости</string>
+    <string name="qs_show_auto_brightness_summary">Показывать иконку автоматической яркости возле слайдера</string>
+
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Иконка VoWiFi</string>
+    <string name="vowifi_icon_enabled">Иконка VoWiFi включена</string>
+    <string name="vowifi_icon_disabled">Иконка VoWiFi отключена</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi вместо VoLTE</string>
+    <string name="vowifi_icon_style_title">Выбрать иконку VoWiFi</string>
+    <string name="vowifi_icon_default">По умолчанию</string>
+
+    <!-- Partial Screenshot -->
+    <string name="click_partial_screenshot_title">Быстрое нажатие для частичного скриншота</string>
+    <string name="click_partial_screenshot_summary">Быстро нажать громкость- и Power для скриншота выделенной области</string>
+
+    <!-- Ambient edge lighting -->
+    <string name="pulse_ambient_light_category">Подсветка краёв экрана</string>
+    <string name="ambient_notification_light_enabled_title">Показывать при AOD</string>
+    <string name="ambient_notification_light_enabled_summary">Показывать подсветку краёв экрана при включённом AOD</string>
+    <string name="ambient_notification_light_color_title">Задать цвет</string>
+    <string name="ambient_notification_light_color_summary">Цвет по умолчанию для подсветки</string>
+    <string name="ambient_notification_light_hide_aod_title">Показывать только подсветку</string>
+    <string name="ambient_notification_light_hide_aod_summary">Спрятать все элементы AOD</string>
+    <string name="ambient_notification_light_timeout_title">Таймаут для подсветки</string>
 
 </resources>
