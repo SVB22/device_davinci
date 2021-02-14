@@ -82,10 +82,6 @@ TARGET_NO_BOOTLOADER := true
 TARGET_USES_QTI_CAMERA_DEVICE := true
 # TARGET_USES_PREBUILT_CAMERA_SERVICE := true
 
-# Shims
-TARGET_LD_SHIM_LIBS := \
-    system/lib/libcameraservice.so|libmedia_jni_shim.so
-
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
