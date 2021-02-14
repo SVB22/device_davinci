@@ -127,8 +127,8 @@ vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbthost_if.so
 vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 
-# Camera - from miui_DAVINCI_21.1.6_594cd21df3_11.0
-lib/libcameraservice.so|3979e30c725257785d2103bc3a2c9851e37e487b
+# Camera - from miui_DAVINCI_21.2.3_6d5111b469_11.0
+lib/libcameraservice.so|88961f8e8ff5210ecd28c846f6d0219bb9452261
 system_ext/lib/vendor.qti.hardware.camera.device@1.0.so|92173eceab2026a3c48ded5a5661141eec3cdb09
 system_ext/lib/vendor.qti.hardware.camera.device@2.0.so|d6283129f34be21a1c4a5573f0d9ea92101f2da2
 system_ext/lib/vendor.qti.hardware.camera.device@3.5.so|1dd415ee99bc5a94c94e8d248d0e104c75396836
