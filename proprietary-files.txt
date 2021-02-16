@@ -131,7 +131,7 @@ vendor/lib/libbthost_if.so
 vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 
 # Camera - from miui_DAVINCI_21.2.3_6d5111b469_11.0
-lib/libcameraservice.so|88961f8e8ff5210ecd28c846f6d0219bb9452261
+lib/libcameraservice.so|3ec86cb72d4f3a72bc90d603f0743331e91abf7a
 system_ext/lib/vendor.qti.hardware.camera.device@1.0.so|92173eceab2026a3c48ded5a5661141eec3cdb09
 system_ext/lib/vendor.qti.hardware.camera.device@2.0.so|d6283129f34be21a1c4a5573f0d9ea92101f2da2
 system_ext/lib/vendor.qti.hardware.camera.device@3.5.so|1dd415ee99bc5a94c94e8d248d0e104c75396836
@@ -1001,7 +1001,7 @@ vendor/lib/libFileMux_proprietary.so|34d6727b02f1a7898e58451769a9db1151d4b872
 vendor/lib/libmmosal.so|bc3378f26f668c3060174a6abc8e7a640dd9730d
 vendor/lib/libmmrtpdecoder_proprietary.so|6961014e8c6bf6d239248e2eb00abab1f94591c2
 vendor/lib/libmmrtpencoder_proprietary.so|bb9b24108645b146045b3116d94b9a5ee7f99897
-vendor/lib/libwfdaac_vendor.so|6c50c3e1755b89b05b5f6de4252a6892271ae6a7
+vendor/lib/libwfdaac_vendor.so|c0a98775cbd29593c727be718fd36d44d7833264
 vendor/lib/libwfdcodecv4l2_proprietary.so|707dacb18a2a20dc2790926ae42b6e40652aa523
 vendor/lib/libwfdcommonutils_proprietary.so|4db21e26ee963db622ffcfe65cda1684a84f6749
 vendor/lib/libwfdconfigutils_proprietary.so|f132f05a7a589298c69b45f90bffe6e8c676590f
