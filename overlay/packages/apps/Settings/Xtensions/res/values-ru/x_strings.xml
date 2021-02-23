@@ -261,4 +261,8 @@
     <string name="ambient_notification_light_hide_aod_summary">Спрятать все элементы AOD</string>
     <string name="ambient_notification_light_timeout_title">Таймаут для подсветки</string>
 
+    <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">Оключать ночную подсветку при использовании FOD</string>
+    <string name="fod_night_light_summary">Оключать ночную подсветку кода активен FOD. Отлючение этой опции может повлиять на качество распознавания отпечатка при использовании ночной подсветки.</string>
+
 </resources>
