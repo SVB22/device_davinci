@@ -29,10 +29,10 @@ LOCAL_CHECK_ELF_FILES := false
 include vendor/xiaomi/davinci/BoardConfigVendor.mk
 
 # ANXCamera
- -include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
+# -include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
 
  # MiuiCamera
- #include vendor/miuicamera/common/BoardConfigVendor.mk
+ include vendor/miuicamera/common/BoardConfigVendor.mk
 
 
 # Architecture
@@ -73,6 +73,7 @@ USE_XML_AUDIO_POLICY_CONF := 1
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
+TARGET_USE_QTI_BT_STACK := true
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sm6150
