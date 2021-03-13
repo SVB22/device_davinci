@@ -328,8 +328,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # Power stats
-PRODUCT_PACKAGES += \
-    android.hardware.power.stats@1.0-service.mock
+# PRODUCT_PACKAGES += \
+#    android.hardware.power.stats@1.0-service.mock
 
 # QMI
 PRODUCT_PACKAGES += \

@@ -18,9 +18,13 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_WIFI_EXT := true
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 IS_PHONE := true
+ANCIENT_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 ANCIENT_OFFICIAL := true
 TARGET_USES_BLUR := true
 EXTRA_FOD_ANIMATIONS := true
+FORCE_OTA := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi

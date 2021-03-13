@@ -709,4 +709,7 @@
     <!-- Default fod pressed color -->
     <integer name="config_fod_pressed_color">1</integer>
 
+    <!-- Whether to enable doze always on -->
+    <bool name="config_enableDozeAlwaysOn">true</bool>
+
 </resources>
